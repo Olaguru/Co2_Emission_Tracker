@@ -49,12 +49,13 @@ The **CO2 Emission Tracker** fetches data from a third-party API (carbon-dioxide
 - Flask
 - MySQL
 - JavaScript-enabled web browser
+- Gunicorn
 
 ### Steps
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/oladapsy/CO2_Emission_Tracker.git
+    git clone https://github.com/olaguru/CO2_Emission_Tracker.git
     ```
 2. Set up a virtual environment:
     ```bash

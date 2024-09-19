@@ -1,0 +1,3 @@
+sudo apt update
+sudo apt install mysql-server
+cat setup_user.sql | sudo mysql -u root -p #enter the root password

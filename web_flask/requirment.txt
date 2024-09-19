@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+#install some of the dependencies needed
+
 sudo apt update
 sudo apt install mysql-server
 pip install requests

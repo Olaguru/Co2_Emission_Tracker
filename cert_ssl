@@ -1,3 +1,0 @@
-sudo certbot certonly --webroot --webroot-path=/var/www/html --email dapoodedeyi@yahoo.com --agree-tos --non-interactive --domains -d co2tracker.deetechwiz.tech
-
-

@@ -2,6 +2,11 @@
 import requests
 
 
+    """
+    section of the flask app responsible for gettng data
+    from the external api and update the database with the lastest
+    record after querying it and fetching the last item in the database
+    """
 @app.route('/co2', methods=['GET'])
 def fetch_co2_data():
     url = 'https://daily-atmosphere-carbon-dioxide-concentration.p.rapidapi.com/api/co2-api'

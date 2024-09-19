@@ -1,0 +1,19 @@
+sudo apt-get update
+sudo pip3 install virtualenv
+mkdir ~/co2tracker_project
+cd ~/co2tracker_project
+
+#### creating the virtual environment
+
+virtualenv co2env
+
+#before we install apps within the venv we activate it
+
+source co2env /bin/activate
+
+#start installation
+pip install gunicorn
+
+#to deactive 
+deactivate
+

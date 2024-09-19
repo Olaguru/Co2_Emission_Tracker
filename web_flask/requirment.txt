@@ -23,3 +23,5 @@ flask db upgrade
  flask db current
 flask db migrate -m Create co2_record table
 flask db upgrade
+
+

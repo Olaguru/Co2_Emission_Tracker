@@ -1,0 +1,24 @@
+sudo apt-get update
+sudo apt-get install mysql-server
+systemctl stop mysqlecho
+sudo apt-get remove --purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+sudo rm -rf /etc/mysql /var/lib/mysql
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo apt install python3-pip
+sudo apt-get update
+pip install flask
+pip install requests
+sudo apt-get install mysql-server
+pip install flask-sqlalchemy
+pip install flask-migrate
+pip install flask_cors
+sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
+sudo apt-get install libmysqlclient-dev
+sudo apt-get install libmysqlclient-dev libssl-dev pkg-config
+pip install mysqlclient
+flask db init
+flask db migrate
+flask db upgrade
+pip intall gunicorn
+#tet gunicorn \n gunicorn --bind 0.0.0.0:5000 wsgi:app
